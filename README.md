@@ -397,41 +397,114 @@ qemu-system-x86_64 \
 echo "Scientific Linux instalado exitosamente"
 echo "Distribución científica basada en RHEL lista para usar"
 ```
-## Guía de Procesos de Instalación
-Proceso Ubuntu
-Preparación: Descargar ISO, crear disco virtual
+## Imagenes de prueba de proceso 
+![Figura 1. Comunicación establecida mediante la terminal de Ubuntu utilizando la herramienta screen.](ruta/de/la/imagen.png)
+**Figura 1.** Comunicación establecida mediante la terminal de Ubuntu utilizando la herramienta *screen*.
 
-Instalación: Seguir asistente gráfico
+![Figura 2. Configuración inicial básica del switch Cisco 2960.](ruta/de/la/imagen.png)
+**Figura 2.** Configuración inicial básica del switch Cisco 2960 (visualización de comandos en el entorno Cisco).
 
-Configuración: Usuario, red, particiones
+![Figura 3. Creación y ajuste de la VLAN 10.](ruta/de/la/imagen.png)
+**Figura 3.** Creación y ajuste de la VLAN 10 en el switch Cisco 2960.
 
-Post-instalación: Actualizaciones, herramientas
+![Figura 4. Configuración de la VLAN PcMonitor.](ruta/de/la/imagen.png)
+**Figura 4.** Configuración de la VLAN identificada con el nombre “PcMonitor”.
 
-Proceso CentOS
-Medios: ISO de CentOS Stream
+![Figura 5. Configuración de red en la Raspberry.](ruta/de/la/imagen.png)
+**Figura 5.** Ajuste de parámetros de red en la Raspberry para la comunicación con otros dispositivos a través del switch.
 
-Instalación: Anaconda installer
+![Figura 6. Configuración IP del PC Monitor.](ruta/de/la/imagen.png)
+**Figura 6.** Asignación y verificación de la dirección IP en el PC Monitor.
 
-Configuración: SELinux, firewall, repositorios
+![Figura 7. Prueba de ping desde PC Monitor (1).](ruta/de/la/imagen.png)
+**Figura 7.** Prueba de conectividad desde el PC Monitor mediante el comando *ping* (primera verificación).
 
-Verificación: cat /etc/redhat-release
+![Figura 8. Prueba de ping desde PC Monitor (2).](ruta/de/la/imagen.png)
+**Figura 8.** Confirmación adicional de conectividad desde el PC Monitor usando el comando *ping* (segunda verificación).
 
-Proceso Alpine
-Minimalismo: ISO pequeña (~100MB)
+![Figura 9. Conexión con el PC ETM.](ruta/de/la/imagen.png)
+**Figura 9.** Verificación de conexión entre la Raspberry y el equipo ETM a través del comando *ping*.
 
-Instalación: Modo texto
+![Figura 10. Escaneo de red con NMAP.](ruta/de/la/imagen.png)
+**Figura 10.** Ejecución del comando *NMAP* para el análisis de la red.
 
-Configuración: setup-alpine script
+![Figura 11. Puerto 22 cerrado.](ruta/de/la/imagen.png)
+**Figura 11.** Comprobación del estado del puerto 22, el cual se encuentra cerrado durante el intento de transferencia de archivos.
 
-Características: musl libc, BusyBox
+![Figura 12. Instalación de Ubuntu (1).](ruta/de/la/imagen.png)
+**Figura 12.** Proceso de instalación de Ubuntu – Etapa 1.
 
-Proceso Scientific Linux
-Origen: Derivado de RHEL
+![Figura 13. Instalación de Ubuntu (2).](ruta/de/la/imagen.png)
+**Figura 13.** Proceso de instalación de Ubuntu – Etapa 2.
 
-Instalación: Similar a CentOS
+![Figura 14. Instalación de Ubuntu (3).](ruta/de/la/imagen.png)
+**Figura 14.** Proceso de instalación de Ubuntu – Etapa 3.
 
-Enfoque: Comunidad científica
+![Figura 15. Instalación de Ubuntu (4).](ruta/de/la/imagen.png)
+**Figura 15.** Proceso de instalación de Ubuntu – Etapa 4.
 
-Características: Compatibilidad con software científico
+![Figura 16. Instalación de Ubuntu (5).](ruta/de/la/imagen.png)
+**Figura 16.** Proceso de instalación de Ubuntu – Etapa 5.
 
-4. Verificación y Documentación
+![Figura 17. Instalación de Ubuntu (6).](ruta/de/la/imagen.png)
+**Figura 17.** Proceso de instalación de Ubuntu – Etapa 6.
+
+![Figura 18. Instalación de Ubuntu (7).](ruta/de/la/imagen.png)
+**Figura 18.** Proceso de instalación de Ubuntu – Etapa 7.
+
+![Figura 19. Instalación de Ubuntu (8).](ruta/de/la/imagen.png)
+**Figura 19.** Proceso de instalación de Ubuntu – Etapa 8.
+
+![Figura 20. Instalación de Ubuntu (9).](ruta/de/la/imagen.png)
+**Figura 20.** Proceso de instalación de Ubuntu – Etapa 9.
+
+![Figura 21. Instalación de CentOS (1).](ruta/de/la/imagen.png)
+**Figura 21.** Instalación del sistema operativo CentOS – Etapa 1.
+
+![Figura 22. Instalación de CentOS (2).](ruta/de/la/imagen.png)
+**Figura 22.** Instalación del sistema operativo CentOS – Etapa 2.
+
+![Figura 23. Instalación de CentOS (3).](ruta/de/la/imagen.png)
+**Figura 23.** Instalación del sistema operativo CentOS – Etapa 3.
+
+![Figura 24. Creación de la máquina virtual para Alpine.](ruta/de/la/imagen.png)
+**Figura 24.** Creación de la máquina virtual para la instalación de Alpine.
+
+![Figura 25. Creación del disco virtual para Alpine.](ruta/de/la/imagen.png)
+**Figura 25.** Generación del disco virtual destinado a la máquina Alpine.
+
+![Figura 26. Instalación de Alpine (1).](ruta/de/la/imagen.png)
+**Figura 26.** Inicio del proceso de instalación de Alpine – Etapa 1.
+
+![Figura 27. Instalación de Alpine (2).](ruta/de/la/imagen.png)
+**Figura 27.** Inicio del proceso de instalación de Alpine – Etapa 2.
+
+![Figura 28. Configuración de usuario en Alpine.](ruta/de/la/imagen.png)
+**Figura 28.** Configuración inicial del usuario dentro del sistema Alpine.
+
+![Figura 29. Configuración interfaz y disco (1).](ruta/de/la/imagen.png)
+**Figura 29.** Ajuste de la interfaz de usuario y del disco – Parte 1.
+
+![Figura 30. Configuración interfaz y disco (2).](ruta/de/la/imagen.png)
+**Figura 30.** Ajuste de la interfaz de usuario y del disco – Parte 2.
+
+![Figura 31. Configuración interfaz y disco (3).](ruta/de/la/imagen.png)
+**Figura 31.** Ajuste de la interfaz de usuario y del disco – Parte 3.
+
+![Figura 32. Instalación de Alpine finalizada.](ruta/de/la/imagen.png)
+**Figura 32.** Instalación de Alpine completada exitosamente.
+
+![Figura 33. Instalación manual de Scientific Linux.](ruta/de/la/imagen.png)
+**Figura 33.** Creación manual de la instalación de Scientific Linux y configuración del disco virtual.
+
+![Figura 34. Pantalla de inicio de Scientific Linux.](ruta/de/la/imagen.png)
+**Figura 34.** Pantalla de inicio del sistema Scientific Linux al comenzar la instalación.
+
+![Figura 35. Configuración de Scientific Linux.](ruta/de/la/imagen.png)
+**Figura 35.** Configuración de red y otros parámetros durante la instalación de Scientific Linux.
+
+![Figura 36. Instalación de Scientific Linux finalizada.](ruta/de/la/imagen.png)
+**Figura 36.** Instalación de Scientific Linux finalizada.
+
+
+
